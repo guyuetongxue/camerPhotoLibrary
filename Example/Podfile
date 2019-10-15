@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'camerPhotoLibrary_Example' do
+  pod 'camerPhotoLibrary', :path => '../'
+
+  target 'camerPhotoLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
