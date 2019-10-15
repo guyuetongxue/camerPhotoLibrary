@@ -1,0 +1,16 @@
+PODS:
+  - camerPhotoLibrary (0.0.1)
+
+DEPENDENCIES:
+  - camerPhotoLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  camerPhotoLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  camerPhotoLibrary: 824c190a5c9b630132d41704e2863441302d097c
+
+PODFILE CHECKSUM: 647a60b81973fcc540137c3fb6f259bb0b941ac8
+
+COCOAPODS: 1.6.1

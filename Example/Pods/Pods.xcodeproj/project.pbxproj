@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0007B8CA67219BF00121EE3B4EF4947E /* WYImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC7638CE487B36E6D3AB8EAA3F7DE9 /* WYImageCropperViewController.m */; };
+		0BB282197C9DF807C452AB506EFA0445 /* Pods-camerPhotoLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE114EA9AFFD2954E70C2AA6D7807C4 /* Pods-camerPhotoLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6BD761464D54413A8F3526796CE65C /* Pods-camerPhotoLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C5724E6BB8D339D671A34A4A994FA /* Pods-camerPhotoLibrary_Tests-dummy.m */; };
+		31F6DFB68F2F18E25423B410BA3D86C7 /* Pods-camerPhotoLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8838FF0D286806BA1FB9F64F044D2BAE /* Pods-camerPhotoLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40050A6F49CB66BA4FA2F2DC617ED5F8 /* ZMKHUserUploadPictureTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 071C29D8EFCE5F0BF78577091B93A77C /* ZMKHUserUploadPictureTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5586B3AA543EAFDBAA75ECECEF3E3E48 /* WYImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4768EFA2799D140B345000F18EEFD0A1 /* WYImageCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816AD41E60B1E212565067FC2CCE5810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C84C5118066A9A480CA9E4DD2485B97F /* camerPhotoLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF39FF632A13B21CE2F2C894A7D6AC3 /* camerPhotoLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1DE368439BBC3F21D55D90832574D82 /* camerPhotoLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC40A56F741203BD8270DCC1B3334AF /* camerPhotoLibrary-dummy.m */; };
+		D37905F7428378E3F43763E07E643575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EC6685CC35C31EA584A0431795495FC8 /* ZMKHUserUploadPictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 87426E9805DEDA03B565D503466F4416 /* ZMKHUserUploadPictureTool.m */; };
+		F095E12986E4DA5431D37453B0CF713E /* Pods-camerPhotoLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD450F28EDA2CF96EF613BA8DF74566 /* Pods-camerPhotoLibrary_Example-dummy.m */; };
+		F34669E9CE9CD292345D577642D8945A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED8EB193931E595EF24F296134D1E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190A64C0BAEA4A4537D8D513838E924B;
+			remoteInfo = "Pods-camerPhotoLibrary_Example";
+		};
+		CB49D5ACA7FCFA5EDFDB90A6BAF61210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9139E8E75F0DDDE367B56E9D60EF01;
+			remoteInfo = camerPhotoLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BC7638CE487B36E6D3AB8EAA3F7DE9 /* WYImageCropperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYImageCropperViewController.m; path = camerPhotoLibrary/Classes/WYImageCropperViewController.m; sourceTree = "<group>"; };
+		071C29D8EFCE5F0BF78577091B93A77C /* ZMKHUserUploadPictureTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMKHUserUploadPictureTool.h; path = camerPhotoLibrary/Classes/ZMKHUserUploadPictureTool.h; sourceTree = "<group>"; };
+		137943F22AE96C2D2B57223B55861159 /* Pods-camerPhotoLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-camerPhotoLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2553845A7F932E2DF33E697EEB67B43D /* Pods-camerPhotoLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-camerPhotoLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		2C2232C8ABD816C15F96D5A847002EC2 /* camerPhotoLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = camerPhotoLibrary.modulemap; sourceTree = "<group>"; };
+		2CE5A612A06DEB6697687C3B304C65DB /* Pods-camerPhotoLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-camerPhotoLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3439A0930D476FE1D26E2AD4025AB0A2 /* Pods-camerPhotoLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-camerPhotoLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F7AE859B2555AC248538BCDE27F79A3 /* Pods-camerPhotoLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-camerPhotoLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4768EFA2799D140B345000F18EEFD0A1 /* WYImageCropperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYImageCropperViewController.h; path = camerPhotoLibrary/Classes/WYImageCropperViewController.h; sourceTree = "<group>"; };
+		655BA40C50A1D894448DD071EA96E008 /* camerPhotoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = camerPhotoLibrary.framework; path = camerPhotoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC40A56F741203BD8270DCC1B3334AF /* camerPhotoLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "camerPhotoLibrary-dummy.m"; sourceTree = "<group>"; };
+		7682618F2B9BE234B1DA7385E0CFACA0 /* Pods-camerPhotoLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-camerPhotoLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BD450F28EDA2CF96EF613BA8DF74566 /* Pods-camerPhotoLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-camerPhotoLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		7D9AA08B86F75B0F081C9B42AD33A770 /* Pods-camerPhotoLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-camerPhotoLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA64826071110C37E0029F5AD3773E7 /* camerPhotoLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = camerPhotoLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87426E9805DEDA03B565D503466F4416 /* ZMKHUserUploadPictureTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMKHUserUploadPictureTool.m; path = camerPhotoLibrary/Classes/ZMKHUserUploadPictureTool.m; sourceTree = "<group>"; };
+		8838FF0D286806BA1FB9F64F044D2BAE /* Pods-camerPhotoLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-camerPhotoLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		8BF39FF632A13B21CE2F2C894A7D6AC3 /* camerPhotoLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "camerPhotoLibrary-umbrella.h"; sourceTree = "<group>"; };
+		8DE114EA9AFFD2954E70C2AA6D7807C4 /* Pods-camerPhotoLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-camerPhotoLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		919C5724E6BB8D339D671A34A4A994FA /* Pods-camerPhotoLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-camerPhotoLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		928ADAE35B7AB2DF6403D36C5EE0190F /* camerPhotoLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "camerPhotoLibrary-prefix.pch"; sourceTree = "<group>"; };
+		997AFEE95978E379CD47A29C5B7301C7 /* Pods_camerPhotoLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_camerPhotoLibrary_Tests.framework; path = "Pods-camerPhotoLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5E84F5CC334FE66B986944EE2C5FDE /* Pods-camerPhotoLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-camerPhotoLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		A61BFE6CC0330DCE933998F5F4FF3925 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0889783810356818B3889DCCFA29DF2 /* Pods-camerPhotoLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-camerPhotoLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		B23C9870D2E9138C142DE611ED5CF07F /* Pods-camerPhotoLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-camerPhotoLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B2D41546BACBB8BC255D02785BD958C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BBB6414C7DFDF2DCF71633E555416C54 /* camerPhotoLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "camerPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
+		C530710F14A96BD1A1897AF1847BF117 /* camerPhotoLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = camerPhotoLibrary.xcconfig; sourceTree = "<group>"; };
+		CAD694D29D41AA58677932C1A8497B01 /* Pods-camerPhotoLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-camerPhotoLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDE95A52243DB80AB021D51EB7E8EEFD /* Pods_camerPhotoLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_camerPhotoLibrary_Example.framework; path = "Pods-camerPhotoLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC789577D0256E45AF806360120E569 /* Pods-camerPhotoLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-camerPhotoLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		EED222D284146089E74AB26F94DC2859 /* Pods-camerPhotoLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-camerPhotoLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E2A29E6B43B2B71C3AE800DB832CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AD41E60B1E212565067FC2CCE5810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3A07BBCFD1AA40CD0B27569CF4073A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34669E9CE9CD292345D577642D8945A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE47FF83805EACC66E18FF4A69DE104C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37905F7428378E3F43763E07E643575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191344595CEBAD500B428F750F245B6A /* Pods-camerPhotoLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC789577D0256E45AF806360120E569 /* Pods-camerPhotoLibrary_Tests.modulemap */,
+				CAD694D29D41AA58677932C1A8497B01 /* Pods-camerPhotoLibrary_Tests-acknowledgements.markdown */,
+				3F7AE859B2555AC248538BCDE27F79A3 /* Pods-camerPhotoLibrary_Tests-acknowledgements.plist */,
+				919C5724E6BB8D339D671A34A4A994FA /* Pods-camerPhotoLibrary_Tests-dummy.m */,
+				B0889783810356818B3889DCCFA29DF2 /* Pods-camerPhotoLibrary_Tests-Info.plist */,
+				8DE114EA9AFFD2954E70C2AA6D7807C4 /* Pods-camerPhotoLibrary_Tests-umbrella.h */,
+				137943F22AE96C2D2B57223B55861159 /* Pods-camerPhotoLibrary_Tests.debug.xcconfig */,
+				7682618F2B9BE234B1DA7385E0CFACA0 /* Pods-camerPhotoLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-camerPhotoLibrary_Tests";
+			path = "Target Support Files/Pods-camerPhotoLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		30DCC3AF1D6B8CF03BD996F51BC3A667 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2232C8ABD816C15F96D5A847002EC2 /* camerPhotoLibrary.modulemap */,
+				C530710F14A96BD1A1897AF1847BF117 /* camerPhotoLibrary.xcconfig */,
+				6EC40A56F741203BD8270DCC1B3334AF /* camerPhotoLibrary-dummy.m */,
+				BBB6414C7DFDF2DCF71633E555416C54 /* camerPhotoLibrary-Info.plist */,
+				928ADAE35B7AB2DF6403D36C5EE0190F /* camerPhotoLibrary-prefix.pch */,
+				8BF39FF632A13B21CE2F2C894A7D6AC3 /* camerPhotoLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/camerPhotoLibrary";
+			sourceTree = "<group>";
+		};
+		3A6D3D16AEA3B8BD41BA7B2F3B93ABC8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7EA64826071110C37E0029F5AD3773E7 /* camerPhotoLibrary.podspec */,
+				B2D41546BACBB8BC255D02785BD958C6 /* LICENSE */,
+				A61BFE6CC0330DCE933998F5F4FF3925 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		86CDBD4952ED2EE63CE92B230B2B55EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C619637CBAABCFB487816FFB7238D3 /* Pods-camerPhotoLibrary_Example */,
+				191344595CEBAD500B428F750F245B6A /* Pods-camerPhotoLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E41A4F17D950D5EE2A19AD670B8B743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655BA40C50A1D894448DD071EA96E008 /* camerPhotoLibrary.framework */,
+				CDE95A52243DB80AB021D51EB7E8EEFD /* Pods_camerPhotoLibrary_Example.framework */,
+				997AFEE95978E379CD47A29C5B7301C7 /* Pods_camerPhotoLibrary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4E2FBCEE422F9E9C43DC092AF973C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4E906DF57A1B00A5B52BFCE45BE73 /* camerPhotoLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5C619637CBAABCFB487816FFB7238D3 /* Pods-camerPhotoLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F5E84F5CC334FE66B986944EE2C5FDE /* Pods-camerPhotoLibrary_Example.modulemap */,
+				3439A0930D476FE1D26E2AD4025AB0A2 /* Pods-camerPhotoLibrary_Example-acknowledgements.markdown */,
+				2CE5A612A06DEB6697687C3B304C65DB /* Pods-camerPhotoLibrary_Example-acknowledgements.plist */,
+				7BD450F28EDA2CF96EF613BA8DF74566 /* Pods-camerPhotoLibrary_Example-dummy.m */,
+				B23C9870D2E9138C142DE611ED5CF07F /* Pods-camerPhotoLibrary_Example-frameworks.sh */,
+				2553845A7F932E2DF33E697EEB67B43D /* Pods-camerPhotoLibrary_Example-Info.plist */,
+				8838FF0D286806BA1FB9F64F044D2BAE /* Pods-camerPhotoLibrary_Example-umbrella.h */,
+				7D9AA08B86F75B0F081C9B42AD33A770 /* Pods-camerPhotoLibrary_Example.debug.xcconfig */,
+				EED222D284146089E74AB26F94DC2859 /* Pods-camerPhotoLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-camerPhotoLibrary_Example";
+			path = "Target Support Files/Pods-camerPhotoLibrary_Example";
+			sourceTree = "<group>";
+		};
+		BFA4E906DF57A1B00A5B52BFCE45BE73 /* camerPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4768EFA2799D140B345000F18EEFD0A1 /* WYImageCropperViewController.h */,
+				04BC7638CE487B36E6D3AB8EAA3F7DE9 /* WYImageCropperViewController.m */,
+				071C29D8EFCE5F0BF78577091B93A77C /* ZMKHUserUploadPictureTool.h */,
+				87426E9805DEDA03B565D503466F4416 /* ZMKHUserUploadPictureTool.m */,
+				3A6D3D16AEA3B8BD41BA7B2F3B93ABC8 /* Pod */,
+				30DCC3AF1D6B8CF03BD996F51BC3A667 /* Support Files */,
+			);
+			name = camerPhotoLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9C4E2FBCEE422F9E9C43DC092AF973C9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E41A4F17D950D5EE2A19AD670B8B743 /* Products */,
+				86CDBD4952ED2EE63CE92B230B2B55EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A76EEC11458BD485B36D378ACD5E4EEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB282197C9DF807C452AB506EFA0445 /* Pods-camerPhotoLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD33971B24774C16B34BAF2D2AD7ACE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F6DFB68F2F18E25423B410BA3D86C7 /* Pods-camerPhotoLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45E830616CC3DCAD8028EB53BF6AACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84C5118066A9A480CA9E4DD2485B97F /* camerPhotoLibrary-umbrella.h in Headers */,
+				5586B3AA543EAFDBAA75ECECEF3E3E48 /* WYImageCropperViewController.h in Headers */,
+				40050A6F49CB66BA4FA2F2DC617ED5F8 /* ZMKHUserUploadPictureTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		190A64C0BAEA4A4537D8D513838E924B /* Pods-camerPhotoLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C069CD1CB6111364DD0B2D5AF2833EFB /* Build configuration list for PBXNativeTarget "Pods-camerPhotoLibrary_Example" */;
+			buildPhases = (
+				BD33971B24774C16B34BAF2D2AD7ACE6 /* Headers */,
+				5E397098ECFD470F11D91536604A88CF /* Sources */,
+				09E2A29E6B43B2B71C3AE800DB832CA1 /* Frameworks */,
+				6AEC72E6E44F8321D789AB4032DA22CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FA838BFBE49EAF46E7C805FE775844 /* PBXTargetDependency */,
+			);
+			name = "Pods-camerPhotoLibrary_Example";
+			productName = "Pods-camerPhotoLibrary_Example";
+			productReference = CDE95A52243DB80AB021D51EB7E8EEFD /* Pods_camerPhotoLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C9139E8E75F0DDDE367B56E9D60EF01 /* camerPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5B2E0A1B643FED88E541A5292D952A /* Build configuration list for PBXNativeTarget "camerPhotoLibrary" */;
+			buildPhases = (
+				D45E830616CC3DCAD8028EB53BF6AACF /* Headers */,
+				6AAB249C19135C9C282BE5BD2FB37D7F /* Sources */,
+				1E3A07BBCFD1AA40CD0B27569CF4073A /* Frameworks */,
+				17BE290A02371B4B46829C0B5986E3E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camerPhotoLibrary;
+			productName = camerPhotoLibrary;
+			productReference = 655BA40C50A1D894448DD071EA96E008 /* camerPhotoLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0FC34F18E204B828A8BC5B8F21741D5 /* Pods-camerPhotoLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D9D0A3945E42BD1301B40D3620371 /* Build configuration list for PBXNativeTarget "Pods-camerPhotoLibrary_Tests" */;
+			buildPhases = (
+				A76EEC11458BD485B36D378ACD5E4EEF /* Headers */,
+				8BFBD12741B6BDEC4017A96AF99B9AAA /* Sources */,
+				AE47FF83805EACC66E18FF4A69DE104C /* Frameworks */,
+				68F62D2B9C7D8153F6C76EFF7B4AFF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49193A8A6E09DFC8A7F3CDF086EBA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-camerPhotoLibrary_Tests";
+			productName = "Pods-camerPhotoLibrary_Tests";
+			productReference = 997AFEE95978E379CD47A29C5B7301C7 /* Pods_camerPhotoLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E41A4F17D950D5EE2A19AD670B8B743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C9139E8E75F0DDDE367B56E9D60EF01 /* camerPhotoLibrary */,
+				190A64C0BAEA4A4537D8D513838E924B /* Pods-camerPhotoLibrary_Example */,
+				B0FC34F18E204B828A8BC5B8F21741D5 /* Pods-camerPhotoLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BE290A02371B4B46829C0B5986E3E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F62D2B9C7D8153F6C76EFF7B4AFF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEC72E6E44F8321D789AB4032DA22CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E397098ECFD470F11D91536604A88CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F095E12986E4DA5431D37453B0CF713E /* Pods-camerPhotoLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB249C19135C9C282BE5BD2FB37D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DE368439BBC3F21D55D90832574D82 /* camerPhotoLibrary-dummy.m in Sources */,
+				0007B8CA67219BF00121EE3B4EF4947E /* WYImageCropperViewController.m in Sources */,
+				EC6685CC35C31EA584A0431795495FC8 /* ZMKHUserUploadPictureTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBD12741B6BDEC4017A96AF99B9AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6BD761464D54413A8F3526796CE65C /* Pods-camerPhotoLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F49193A8A6E09DFC8A7F3CDF086EBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-camerPhotoLibrary_Example";
+			target = 190A64C0BAEA4A4537D8D513838E924B /* Pods-camerPhotoLibrary_Example */;
+			targetProxy = 8ED8EB193931E595EF24F296134D1E30 /* PBXContainerItemProxy */;
+		};
+		99FA838BFBE49EAF46E7C805FE775844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = camerPhotoLibrary;
+			target = 2C9139E8E75F0DDDE367B56E9D60EF01 /* camerPhotoLibrary */;
+			targetProxy = CB49D5ACA7FCFA5EDFDB90A6BAF61210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040F66FBBCAA1F15F1ECC94516464324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C530710F14A96BD1A1897AF1847BF117 /* camerPhotoLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary.modulemap";
+				PRODUCT_MODULE_NAME = camerPhotoLibrary;
+				PRODUCT_NAME = camerPhotoLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5298639D5253267E65E8BED0509D0600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137943F22AE96C2D2B57223B55861159 /* Pods-camerPhotoLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-camerPhotoLibrary_Tests/Pods-camerPhotoLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-camerPhotoLibrary_Tests/Pods-camerPhotoLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A613C7231C2D55831D709544C62215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9AA08B86F75B0F081C9B42AD33A770 /* Pods-camerPhotoLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-camerPhotoLibrary_Example/Pods-camerPhotoLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-camerPhotoLibrary_Example/Pods-camerPhotoLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		747B4623C6F8D938BAC606F706B52057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED222D284146089E74AB26F94DC2859 /* Pods-camerPhotoLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-camerPhotoLibrary_Example/Pods-camerPhotoLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-camerPhotoLibrary_Example/Pods-camerPhotoLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		763259552FB10A0210381AC8175C194C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C530710F14A96BD1A1897AF1847BF117 /* camerPhotoLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/camerPhotoLibrary/camerPhotoLibrary.modulemap";
+				PRODUCT_MODULE_NAME = camerPhotoLibrary;
+				PRODUCT_NAME = camerPhotoLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD3CF14F732A0F8DF498FB989EE06C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7682618F2B9BE234B1DA7385E0CFACA0 /* Pods-camerPhotoLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-camerPhotoLibrary_Tests/Pods-camerPhotoLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-camerPhotoLibrary_Tests/Pods-camerPhotoLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245D9D0A3945E42BD1301B40D3620371 /* Build configuration list for PBXNativeTarget "Pods-camerPhotoLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5298639D5253267E65E8BED0509D0600 /* Debug */,
+				DD3CF14F732A0F8DF498FB989EE06C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C069CD1CB6111364DD0B2D5AF2833EFB /* Build configuration list for PBXNativeTarget "Pods-camerPhotoLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A613C7231C2D55831D709544C62215A /* Debug */,
+				747B4623C6F8D938BAC606F706B52057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5B2E0A1B643FED88E541A5292D952A /* Build configuration list for PBXNativeTarget "camerPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F66FBBCAA1F15F1ECC94516464324 /* Debug */,
+				763259552FB10A0210381AC8175C194C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

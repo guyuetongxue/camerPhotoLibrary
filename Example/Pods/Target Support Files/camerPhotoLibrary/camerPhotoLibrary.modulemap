@@ -1,0 +1,6 @@
+framework module camerPhotoLibrary {
+  umbrella header "camerPhotoLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_camerPhotoLibrary_Example {
+  umbrella header "Pods-camerPhotoLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
